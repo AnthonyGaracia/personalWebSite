@@ -1,3 +1,29 @@
 body{
     background-color: gainsboro;
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav > a {
+    text-decoration: none;
+    border: 0.5px solid black;
+    flex: 1;
+    text-align: center;
+}
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+   
+}
