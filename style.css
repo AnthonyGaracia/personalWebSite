@@ -1,29 +1,58 @@
 body{
     background-color: gainsboro;
+    margin: 5%;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: whitesmoke;
 }
 h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  
 }
 h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    padding: 1%;
+
 }
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: whitesmoke;
+    padding: 1%;
 }
 nav > a {
     text-decoration: none;
     border: 0.5px solid black;
     flex: 1;
     text-align: center;
+    padding: 0.2rem;
+    color: black;
 }
 nav {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: flex-end;
-    padding: 0.5rem;
+    padding: 0.1rem;
+    color: black;
+    border-radius: 0.1rem;
+    background-color: whitesmoke;
    
+}
+.fixedFooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    background-color: whitesmoke;
+    width: 90%;
+    
+}
+.footerContainer{
+    margin-top: 5%;
+
+}
+img {
+    padding: 2%;
 }
