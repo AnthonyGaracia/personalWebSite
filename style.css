@@ -44,15 +44,19 @@ nav {
    
 }
 .fixedFooter {
+    border: 1px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     bottom: 0px;
     background-color: whitesmoke;
     width: 90%;
+    text-align: center;
+    padding: 5px;
     
 }
 .footerContainer{
     margin-top: 5%;
+    
 
 }
 .section{
@@ -68,6 +72,33 @@ nav {
 .section p{
     margin-left: 0px;
 }
+.home > a{
+    background-color: whitesmoke;
+    text-decoration: none;
+    border: 0.5px solid black;
+    flex: 1;
+    padding: 0.2rem;
+    color: black;
+}
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.submit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    padding: 2%;
+    height: 175px;
+    width:175px
+}
+@media (max-width:768px){
+    img [class="hide"]{
+        display: none !important;
+    }
+    
+}
+
+    
 
 
 
